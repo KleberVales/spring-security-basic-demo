@@ -76,4 +76,10 @@ flowchart TD
 
 ## ⚙️ Como Rodar o Projeto
 
+```bash
+
+./gradlew bootRun
+
+```
+
 
