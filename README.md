@@ -82,4 +82,19 @@ flowchart TD
 
 ```
 
+## 🧪 Testando no Navegador ou cURL
+
+```bash
+
+# Endpoint público
+curl http://localhost:8080/public
+
+# Endpoint protegido (USER ou ADMIN)
+curl -u user:user123 http://localhost:8080/user
+
+# Endpoint protegido (ADMIN)
+curl -u admin:admin123 http://localhost:8080/admin
+
+```
+
 
