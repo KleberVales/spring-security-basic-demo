@@ -38,4 +38,16 @@ spring-security-basic-demo/
 │ └── SecurityBasicApplicationTests.java
 ```
 
+---
+
+## 🚀 Endpoints
+
+| Método | Endpoint  | Descrição | Role Necessária |
+|--------|----------|-----------|-----------------|
+| GET    | `/public` | Endpoint público, sem autenticação | Nenhuma |
+| GET    | `/user`   | Endpoint protegido para usuário comum | USER ou ADMIN |
+| GET    | `/admin`  | Endpoint protegido para administrador | ADMIN |
+
+---
+
 
