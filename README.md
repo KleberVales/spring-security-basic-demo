@@ -50,4 +50,13 @@ spring-security-basic-demo/
 
 ---
 
+## 👤 Usuários de Teste
+
+| Usuário | Senha     | Role  |
+|---------|----------|-------|
+| admin   | admin123 | ADMIN |
+| user    | user123  | USER  |
+
+---
+
 
