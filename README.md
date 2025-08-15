@@ -14,4 +14,28 @@ Este projeto demonstra **autenticação e autorização** usando **Spring Securi
 
 ## 📂 Estrutura de Pastas
 
+```text
+spring-security-basic-demo/
+├── build.gradle.kts
+├── src
+│ ├── main
+│ │ ├── java
+│ │ │ └── com
+│ │ │ └── example
+│ │ │ └── securitybasic
+│ │ │ ├── SecurityBasicApplication.java
+│ │ │ ├── config
+│ │ │ │ └── SecurityConfig.java
+│ │ │ └── controller
+│ │ │ └── DemoController.java
+│ │ └── resources
+│ │ └── application.properties
+│ └── test
+│ └── java
+│ └── com
+│ └── example
+│ └── securitybasic
+│ └── SecurityBasicApplicationTests.java
+```
+
 
