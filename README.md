@@ -74,4 +74,6 @@ flowchart TD
     I -- Sim --> K[Permitir acesso ao recurso]
 ```
 
+## ⚙️ Como Rodar o Projeto
+
 
