@@ -58,5 +58,20 @@ spring-security-basic-demo/
 | user    | user123  | USER  |
 
 ---
+## 🔄 Fluxo de Autenticação e Autorização
+
+```mermaid
+flowchart TD
+    A[Usuário acessa rota] --> B{Rota é pública?}
+    B -- Sim --> C[Permitir acesso]
+    B -- Não --> D[Solicitar login]
+    D --> E[Usuário envia credenciais]
+    E --> F{Credenciais válidas?}
+    F -- Não --> G[Retornar 401 Unauthorized]
+    F -- Sim --> H[Verificar Role do usuário]
+    H --> I{Role compatível com rota?}
+    I -- Não --> J[Retornar 403 Forbidden]
+    I -- Sim --> K[Permitir acesso ao recurso]
+```
 
 
