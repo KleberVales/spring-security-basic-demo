@@ -12,3 +12,6 @@ Este projeto demonstra **autenticação e autorização** usando **Spring Securi
 
 ---
 
+## 📂 Estrutura de Pastas
+
+
