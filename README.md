@@ -4,3 +4,11 @@ Este projeto demonstra **autenticação e autorização** usando **Spring Securi
 
 ## 📌 Funcionalidades
 
+- Autenticação usando usuários armazenados **in-memory**
+- Criptografia de senha com **BCrypt**
+- Controle de acesso baseado em **roles**
+- Endpoints públicos e protegidos
+- Configuração via **HttpSecurity**
+
+---
+
